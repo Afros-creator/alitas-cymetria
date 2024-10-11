@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    background-color: #f2e8cf;
+
+}
+
+header {
+    background-color: #a7c957;
+}
+
+.header_div_superior{
+    display: flex;
+    margin-left: 1rem;
+    justify-content: center;    
+    align-items: center;
+    gap: 5rem;
+}
+
+.header_div_superior_logo{
+    width: 9rem;
+    height: 7.5rem;
+}
+
+.header_div_superior_titulo {
+    font-size: 2.5rem;
+}
+
+.header_div_inferior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 3.5rem;
+}
+
+.header_div_inferior a {    
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 1rem 5rem;
+}
+
+.header_div_inferior a:hover {
+    background-color: white;
+    color: black;
+}
+
+.header_div_inferior_lista {
+    border-color: black;
+    display: flex;
+    font-size: 1.25rem;
+    list-style: none;
+}
+
+footer {
+    background-color: #adb5bd;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.footer_div_superior{
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+}
+
+.footer_div_superior_derecho_botones {
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 1rem;
+}
+
+.footer_div_superior button{
+    width: 3.5rem;
+    height: 2rem;
+    
+    
+}
+
+.footer_div_inferior{
+    text-align: center;
+    padding: 0.001rem;
+    background-color: #669bbc;
+}
+
+
+

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alitas Cymetria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    .slider-frame {
+        width: 1600px;
+        height: 700px;
+        margin:50px auto 0;
+        overflow: hidden;
+    }
+
+    .slider-frame ul {
+        display: flex;
+        padding: 0;
+        width: 200%;
+        
+        animation: slide 20s infinite alternate ease-in-out;
+    }
+
+    .slider-frame li {
+        width: 100%;
+        list-style: none;
+    }
+
+    .slider-frame img {
+        width: 100%;
+    }
+
+    @keyframes slide {
+        0% {margin-left: 0;}
+        45% {margin-left: 0;}
+        
+        50% {margin-left: -100%;}
+        85% {margin-left: -100%;}
+        
+    }
+
+    .main_section_ofertas{
+        margin-left: 15%;
+    }
+
+    .main_section_ofertas img{
+        width: 650px;
+        height: 800px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header_div">
+            <div class="header_div_superior">
+                <img src="Imagenes/Logo.JPG" alt="logo" class="header_div_superior_logo">
+                <h1 class="header_div_superior_titulo">Alitas Cymetria</h1>
+            </div>
+            <div class="header_div_inferior">
+                <nav>
+                    <ul class="header_div_inferior_lista">
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <!--<li><a href="novedades.html">Novedades</a></li>-->
+                        <!--<li><a href="mejoras.html">Mejoras</a></li>-->
+                        <li><a href="registrese.html">Registrate</a></li>
+                        <li><a href="ingresa.html">Ingresa</a></li>
+                    </ul>
+                </nav>
+            </div> 
+        </div>
+    </header>
+    <main>        
+        <section class="main_section_slider">
+            <div class="slider-frame">
+                <ul>
+                    <li><img src="Imagenes/slider1.jpg" alt="Pollo frito con lechuga"></li>
+                    <li><img src="Imagenes/slider2.jpg" alt="Papas a la francesa"></li>
+                </ul>
+                <br>
+                <br>
+            </div>
+            <br>
+            <br>
+        </section>
+        <section class="main_section_ofertas">
+            <h2>Nuestros productos</h2>
+            <img src="Imagenes/alitasempresariales.JPG" alt="">
+            <img src="Imagenes/alitasempresariales2.JPG" alt="">
+            <br>
+            <br>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer_div">
+            <div class="footer_div_superior">
+                <div class="footer_div_superior_izquierdo">  
+                    <h4>Servicio al cliente y domicilios</h4>
+                    <ul>
+                        <li>Número de contacto: 601-6351509</li>
+                        <li>Celular de contacto: 301052000</li>
+                        <li>Correo eléctrónico: alitascymetria@cymetria.com</li>
+                    </ul>
+                </div>
+                <div class="footer_div_superior_derecho">
+                    <h4>Síguenos en nuestras redes</h4>
+                    <div class="footer_div_superior_derecho_botones">
+                        <button> <i class="fa-brands fa-instagram"></i>
+                            <!--Instragram-->
+                        </button>
+                        <button> <i class="fa-brands fa-x-twitter"></i>
+                            <!--Twitter-->
+                        </button>
+                        <button> <i class="fa-brands fa-facebook-f"></i>
+                            <!--Facebook-->
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_div_inferior">
+                <h3>Desarrolado por Andrés Felipe Robles Sánchez</h3>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
