@@ -6,6 +6,62 @@
     <title>Alitas Cymetria</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .form-register {
+            width: 700px;
+            background: black;
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 4px;
+            color: white;
+            box-shadow: 7px 13px 37px #000;
+        }
+    
+        .form-register h4 {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+    
+        .controls {
+            width: 95%;
+            background: #24303c;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid #a7c957;
+            font-family: 'calibri';
+            font-size: 18px;
+            color: white;
+        }
+    
+            .form-register p {
+            height: 40px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 40px;
+            }
+    
+            .form-register a {
+            color: white;
+            text-decoration: none;
+            }
+    
+            .form-register a:hover {
+            color: white;
+            text-decoration: underline;
+            }
+    
+            .form-register .botons {
+            width: 95%;
+            background: #a7c957;
+            border: none;
+            padding: 12px;
+            color: white;
+            margin: 16px 16px;
+            font-size: 16px;
+            }
+        </style>
 </head>
 <body>
     <header>
@@ -29,7 +85,19 @@
         </div>
     </header>
     <main>
-        <p class="mensaje">Bienvenido a la página de ingreso</p>
+        <p class="mensaje"></p>
+        <section class="form-register">
+            <h4>Formulario de Ingreso</h4>
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+            <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+            <input class="botons" type="submit" value="Ingresar">
+            <p><a href="#">Olvidó su contraseña</a></p>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </main>
     <footer>
         <div class="footer_div">
